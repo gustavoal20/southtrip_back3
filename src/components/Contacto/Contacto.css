@@ -1,0 +1,99 @@
+.textocon h3{
+    color: var(--color_titulos);
+}
+
+.textocon{
+    padding-left: 80px;
+    color: var(--color_titulos);
+}
+
+.textocon img{
+    float:right;
+    padding-right: 80px;
+    object-fit: cover;
+    
+}
+
+.lineacon{
+    margin-left: 75px;
+    margin-right: 695px;
+    padding: 5px;
+}
+
+.formulario{
+    margin-left: 80px;
+    margin-right: 700px;
+    
+}
+/* @media (min-width: 900px){
+    .formulario{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        margin: 0px;   
+    }
+} */
+
+
+@media (max-width: 900px){
+    .faro__img{
+        display: none;
+
+    }
+}
+
+@media (max-width: 700px){
+    .contacto{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        margin: 0px;       
+    }
+}
+
+
+ @media (max-width: 750px) {
+    .textocon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px;
+        margin: 10px;
+
+    }
+} 
+
+ @media (max-width: 900px){
+    .textocon p{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+} 
+/* .faro{
+    float: left;
+    
+} */
+
+.botonen button{
+    width: 35%;
+    height: 20%;
+    font-size: 15px;
+    
+}
+
+
+@media (max-width: 700px){
+    .botonen{
+        width: 250%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+.campos p{
+    font-size: 13px;
+    color: var(--color_letras);
+}

@@ -1,0 +1,249 @@
+.Actividades{
+    flex-wrap: wrap;
+    
+}
+
+.Actividades img{
+    width: 100%; 
+    height: 555px;
+    
+}
+
+/* .iconos{
+    padding-left: 53px;
+  
+    font-size: 20px;
+   
+} */
+
+.iconos2{
+    flex-wrap: wrap;
+}
+
+.caminata {
+    padding-left: 70px; 
+    color: var(--color_titulos)
+}
+
+.caminata2{
+    padding-left: 70px;
+    color: var(--color_letras);
+}
+
+  .iconos {
+    
+    margin: 10px;
+    float: left;
+  }
+.iconos2{
+    float: left;
+    margin: 10px;
+}
+
+.iconos3{
+    float: left;
+    margin: 10px;
+} 
+ /* .iconos{
+    padding-left: 53px;
+    float: left;
+    font-size: 20px;
+    
+} */
+
+
+.descripcion {
+    text-align:left;
+    padding-left: 70px;
+    color: var(--color_titulos);
+}
+
+.caminata3{
+    padding-left: 70px;
+    color: var(--color_letras);
+}
+
+.caminata3 h3{
+    color: var(--color_titulos);
+}
+
+.descripcion__caminate3{
+    color: var(--color_letras);
+    padding-left: 70px;
+    
+}
+
+.card{
+    float:right;
+    
+}
+
+.boton{
+    
+    font-size: 20px;
+    
+}
+
+.ubicacion{
+    padding-left: 70px;
+    color: var(--color_titulos);
+    
+}
+
+.ubicacion h3{
+    color:var(--color_titulos)
+}
+
+.botonacts {
+    background-color: var(--color_titulos);
+}
+
+.card1{
+    background-color: var(--color_titulos);
+    text-align: center;
+    color:white;
+    height: 100%;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.linea{
+    margin-left: 70px;
+    margin-right: 400px;
+    color: var(--color_letras);
+}
+
+.lineacami{
+    margin-left: 70px;
+    margin-right: 400px;  
+    color: var(--color_letras);
+}
+
+.img img{
+    object-fit: cover;
+}
+
+.card__presios{
+    margin: 20px;
+    padding: -10px;
+    color: var(--color_titulos);
+}
+
+.info__container{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    padding-left: 70px;
+}
+
+
+@media (max-width: 750px) {
+    .caminata {
+        margin: 10px;
+        padding: 0px;
+        flex-wrap: wrap;
+        display: flex; 
+    }
+}
+
+@media (max-width: 750px) {
+    .info__container{
+        margin: 10px;
+        padding: 0px;
+        flex-wrap: wrap;
+        display: flex; 
+    }
+}
+
+.informacion__travesia{
+    color: var(--color_letras);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 750px) {
+    .informacion__travesia{
+        margin: 0px;
+        padding: 0px;
+        flex-wrap: wrap;
+        display: flex;    
+    }
+}
+
+@media (max-width: 750px) {
+    .card__presios{
+        display: flex;
+        margin: 20px;
+        padding: 0px;
+        
+    }
+}
+
+ .card__presios{
+    padding: 0px 30px 0px 30px;
+    
+}  
+
+@media (max-width: 750px) {
+    .descripcion{
+        margin: 0px;
+        padding: 0px;
+        flex-wrap: wrap;
+        display: flex;    
+        
+    }
+}
+
+@media (max-width: 750px) {
+    .descripcion h3{
+        margin: 10px;
+        padding: 0px;
+        flex-wrap: wrap;
+        display: flex;    
+        justify-content: center;
+    }
+}
+
+@media (max-width: 750px) {
+    .caminata2{
+        padding: 10px;
+        margin: 0px;
+        
+        flex-wrap: wrap;
+        display: flex;    
+    }
+}
+
+@media (max-width: 750px) {
+    .caminata3{
+        margin: 10px;
+        padding: 0px;
+        flex-wrap: wrap;
+        display: flex;    
+        
+    }
+}
+
+
+
+@media (max-width: 750px) {
+    .descripcion__caminate3{
+        margin: 10px;
+        padding: 0px;
+        flex-direction: column;
+        display: flex;    
+        
+    }
+}
+
+@media (max-width: 750px) {
+    .ubicacion{
+        margin: 10px;
+        padding: 0px;
+        flex-wrap: wrap;
+        display: flex;    
+        
+    }
+}

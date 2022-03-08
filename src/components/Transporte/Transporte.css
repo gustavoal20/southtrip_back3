@@ -1,0 +1,85 @@
+.traslados{
+  color: var(--color_titulos);
+    
+  }
+
+  @media (max-width: 700px){
+    .traslados h2{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      
+   }
+  }
+  
+  .transportetex{
+    font-size: 20px;
+    margin: 20px;
+    text-align: left;
+    color: var(--color_letras);
+    
+  }
+  @media (max-width: 700px){
+    .transporte img{
+      display: none;
+    }
+  }
+  .transporte img{
+      height: 50%;
+      width: 50%;
+      float: left;
+  }
+  
+  @media (max-width: 700px){
+    .transporte {
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;  
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .transporte{
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
+
+   .traslados2{
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    color: var(--color_letras);
+  }
+  
+  @media (max-width: 700px){
+    .traslados2{
+      
+      flex-wrap: wrap;
+      display: flex;
+      margin: 0px;
+      padding: 0px;
+      margin-left: 20px;
+   }
+  }
+  .boton__contactanos{
+    text-align: left;
+    
+  }
+
+  .boton__contactanos a{
+    text-decoration: none;
+    color: white;
+  }
+
+  @media (max-width: 700px){
+    .boton__contactanos {
+      font-size: 20px;    
+      margin: 20px;
+      padding: 0px;
+      
+    }
+  }

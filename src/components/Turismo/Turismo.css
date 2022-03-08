@@ -1,0 +1,103 @@
+.CARDFONDO{
+    
+    margin-right:10px ;
+    border-radius: 30px 0px ;
+    background-color: white;
+    width: 17%;
+    height: 100%;
+    
+}
+
+@media (max-width: 50px) {
+    .CARDFONDO{
+        flex-direction: column;
+    }
+}
+
+.img1{
+    
+    border-radius: 30px 0px 0px;
+    height: 25%;
+    width: 100%;
+}
+
+.imagenfondo{
+    width: 100%;
+    height: 310.2px;
+    object-fit: cover;
+}
+
+
+.img1:hover{
+    transform : scale(1.1);
+}
+
+.titulo p{
+    color: rgb(51, 51, 145);
+    text-align: left;
+    margin: 50px;
+    margin-left: auto;
+}
+
+.titulo a{
+    text-decoration: none;
+}
+
+.from{
+    color: rgb(51, 51, 145);
+    text-align: left;
+    font-size: 20px;
+}
+
+
+/* ----------aventura---------- */
+
+.CARDAVEN{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right:800px ;
+    border-radius: 30px 0px ;
+    background-color: white;
+    width: 17%;
+    height: 100%;
+}
+
+.imgaven{
+    
+    border-radius: 30px 0px 0px;
+    height: 500px;
+    width: 100%;
+}
+
+.imgaven:hover{
+    transform : scale(1.1);
+}
+
+.tituloaven p{
+    color: rgb(51, 51, 145);
+    text-align: left;
+    margin-left: auto;
+    margin: 40px;
+    
+}
+
+.tituloaven a{
+    text-decoration: none;
+}
+
+.fromaven{
+    color: rgb(51, 51, 145);
+    text-align: left;
+    font-size: 20px;
+}
+
+/* .aventura{
+    background-image: url(./Imagenes/fondo.jpg);
+    background-color: red;
+    background-size: cover;
+} */
+/* .turismo{
+    background-color: red;
+} */
+
+

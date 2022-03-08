@@ -1,0 +1,148 @@
+.confirmar{
+    
+}
+
+.linearoja{
+    margin-left: 70px;
+    margin-right: 70px;
+    color: var(--color_letras);
+    
+}
+
+.reserva h2{
+    float: right;
+    
+    margin-right: 200px;
+    padding: 0px;
+    color: var(--color_titulos);
+    
+}
+
+.cardreserva{
+    float: right;
+    margin-right: 85px;
+    
+}
+
+.total{
+    margin: 0px 0px 0px 0px;
+    color: var(--color_titulos);
+    font-size: 20px;
+}
+
+.lineaparque{
+    color: var(--color_letras);
+}
+
+.lineafacturacion{
+    color: var(--color_letras);
+    margin-left: 70px;
+    margin-right: 500px;
+}
+
+.precio{
+    color: var(--color_titulos);
+    float: right;
+
+
+}
+
+.parque{
+    text-align: left;
+    color: var(--color_titulos);
+}
+
+.cardcaminata{
+    width: 130px;
+    float: right;
+}
+
+.precio{
+    float: right;
+}
+
+.facturacion{
+    margin-left: 70px;
+    color: var(--color_titulos);
+}
+
+.formulariocompleto p{
+    color: var(--color_letras);
+
+}
+
+.formularionombre{
+    margin-left: 70px;
+    color: rgb(51, 51, 145);
+    margin-right: 900px;
+}
+
+ .formularioalpellido{
+    margin-left: 70px;
+    color: rgb(51, 51, 145);
+    margin-right: 900px;
+    
+    
+} 
+
+.formularioemail{
+    margin-left: 70px;
+    margin-right: 900px;
+    color: rgb(51, 51, 145);
+    
+}
+
+.pais{
+    margin-left: 70px;
+    margin-right: 900px;
+    color: rgb(51, 51, 145);
+}
+
+.formulariodireccion{
+    margin-left: 70px;
+    margin-right: 900px;
+    color: rgb(51, 51, 145);
+}
+
+.formulariohotel{
+    margin-left: 70px;
+    margin-right: 900px;
+    color: rgb(51, 51, 145);
+}
+
+.formulariotelefono{
+    margin-left: 70px;
+    margin-right: 900px;
+    color: rgb(51, 51, 145);
+}
+
+
+
+ @media(max-width:700px){
+    .confirmar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+
+@media(max-width:700px){
+    .cardreserva{
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+
+@media(max-width:700px){
+    .formulariocompleto{
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+
+@media(max-width:700px){
+    .cardcaminata{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80px;
+    }
+} 
