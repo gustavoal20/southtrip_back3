@@ -19,7 +19,7 @@ const Excursion1 = () => {
                     <a href="/Actividades"><p>LAGUNA ESMERALDA</p></a>
                     </div>    
                     <div className="fromaven">
-                    <p> <FcFlashOn/>from  ARS$10000</p>
+                    <p> <FcFlashOn/>from  USD$80</p>
                     </div>
                     <div className="arg">
                     
@@ -32,10 +32,10 @@ const Excursion1 = () => {
                     <Card.Img className="imgaven" variant="top" src={caminata1}/>
                     <Card.Body className="body">
                     <div className="tituloaven">
-                    <a href="/Actividades"><p>4x4</p></a>
+                    <a href="/ParqueNacional"><p>PARQUE NACIONAL TIERRA DEL FUEGO</p></a>
                     </div>    
                     <div className="fromaven">
-                    <p> <FcFlashOn/>from  ARS$10000</p>
+                    <p> <FcFlashOn/>from  USD$52</p>
                     </div>
                     <div className="arg">
                     

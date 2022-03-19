@@ -1,6 +1,6 @@
 import React from "react";
 import './Confirmar.css'
-import {Form, Card} from 'react-bootstrap'
+import {Form, Card, Col, Button} from 'react-bootstrap'
 import caminata from './Imagenes/caminata.jpg'
 
 const Confirmar = () => {
@@ -32,7 +32,7 @@ const Confirmar = () => {
                 <Card.Body>
                 <img className="cardcaminata" src={caminata}></img>
                 
-                    <Card.Title className="parque">Parque nacional Tierra del Fuego</Card.Title>
+                    <Card.Title className="parque">LAGUAN ESMERALDA</Card.Title>
                     
                     {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
                     <Card.Text>
@@ -44,7 +44,7 @@ const Confirmar = () => {
                         <br/>
                         <br/>                       
                         <div className="total">
-                        <p className="precio">AR$1000</p>
+                        <p className="precio">USD$80</p>
                         <p >Total:</p>
                         </div>
                         </Card.Text>
@@ -54,49 +54,62 @@ const Confirmar = () => {
 
         
         <div className="formulariocompleto">
-        <div className="formularionombre"> 
+    <Form >
+
+        
         <p>Nombre *</p>
-        <Form.Control  type="text"  placeholder="Nombre *"  />
-         </div>
+        <Col>
+         <Form.Control type="text" placeholder="Nombre" />
+        </Col>
+        
+
         <br/>
-        <div className="formularioalpellido"> 
+         
             <p>Apellido *</p>
-        <Form.Control  type="text"  placeholder="Apellido *"  />
-        </div>
+        <Col>
+            <Form.Control type="text" placeholder="Apellido" />
+        </Col>
+        
+
         <br/>
-        <div className="formularioemail">
+    
         <p>Dirección de correo electrónico *</p>
-        <Form.Control type="email" placeholder="Email *" /> 
-        </div>
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+             {/* <Form.Label>Email </Form.Label> */}
+        <Form.Control type="email" placeholder="Email" />
+        </Form.Group>
+  
         <br/>
-        <div className="pais">
-            <p>País *</p>
+    
+        <p>País *</p>
         <Form.Select aria-label="Default select example">
-        <option>Seleccione pais</option>
-        <option value="1">Argentina</option>
-        <option value="2">Uruguay</option>   
-        <option value="2">Brasil</option>  
+            <option>Seleccione pais</option>
+            <option value="1">Argentina</option>
+            <option value="2">Uruguay</option>   
+            <option value="2">Brasil</option>  
         </Form.Select>
-        </div>
+   
         <br/>
-        <div className="formulariodireccion">
-            <p>Dirección *</p>
+    
+        <p>Dirección *</p>
         <Form.Control  type="text"  placeholder="Provincia/Nombre y numero de calle"  />
-        </div>
+    
         <br/>
-        <div className="formulariohotel">
-            <p>Dirección Ushuaia *</p>
+    
+        <p>Dirección Ushuaia *</p>
         <Form.Control  type="text"  placeholder="Hotel/Alojamiento"  />
-        
-        </div>
+ 
         <br/>
-        <div className="formulariotelefono">
-            <p>Celular *</p>
+    
+        <p>Celular *</p>
         <Form.Control  type="text"  placeholder="Celular *"  />
-        
+        <br/>
+        <div className="botonen">
+            <Button variant="warning" >ENVIAR</Button>
         </div>
-        </div>
+    </Form>
     </div>
+ </div>
     )
 }
 

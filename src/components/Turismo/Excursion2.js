@@ -15,10 +15,10 @@ const Excursion2 = () => {
                     <Card.Img className="imgaven" variant="top" src={caminata1}/>
                     <Card.Body className="body">
                     <div className="tituloaven">
-                    <a href="/Actividades"><p>PARQUE NACIONAL TIERRA DEL FUEGO</p></a>
+                    <a href="/MiniSki"><p>MINI SKI WEEK</p></a>
                     </div>    
                     <div className="fromaven">
-                    <p> <FcFlashOn/>from  ARS$10000</p>
+                    <p> <FcFlashOn/>from  ARS$ consultanos</p>
                     </div>
                     <div className="arg">
                     
@@ -31,10 +31,10 @@ const Excursion2 = () => {
                     <Card.Img className="imgaven" variant="top" src={caminata1}/>
                     <Card.Body className="body">
                     <div className="tituloaven">
-                        <a href="/Actividades"><p>4x4</p></a>
+                        <a href="/Lagos4x4"><p>LAGOS 4x4</p></a>
                     </div>    
                     <div className="fromaven">
-                        <p> <FcFlashOn/>from  ARS$10000</p>
+                        <p> <FcFlashOn/>from  USD$114</p>
                     </div>
                     <div className="arg">
                     
@@ -43,7 +43,24 @@ const Excursion2 = () => {
                 </Card>  
             </div>
 
-             </div>
+
+            <div className="navegacion" >
+                <Card className="CARDAVEN__nave">
+                    <Card.Img className="imgaven" variant="top" src={caminata1}/>
+                    <Card.Body className="body">
+                    <div className="tituloaven">
+                        <a href="/CanalBeagle"><p>NAVEGACION CANAL DE BEAGLE</p></a>
+                    </div>    
+                    <div className="fromaven">
+                        <p> <FcFlashOn/>from  USD$60</p>
+                    </div>
+                    <div className="arg">
+                    
+                    </div>   
+                    </Card.Body>
+                </Card>  
+            </div>
+        </div>
 
 
              

@@ -9,6 +9,25 @@
     
 }
 
+.ski img{
+    width: 100%;
+    height: 520px;
+}
+
+.parque img{
+    width: 100%;
+    height: 520px;
+}
+
+
+.barco img{
+    width: 100%;
+    height: 520px;
+}
+.chata img{
+    width: 100%;
+    height: 520px;
+}
 /* .iconos{
     padding-left: 53px;
   
@@ -28,6 +47,7 @@
 .caminata2{
     padding-left: 70px;
     color: var(--color_letras);
+    padding-right: 70px;
 }
 
   .iconos {
@@ -161,6 +181,36 @@
     color: var(--color_letras);
     display: flex;
     flex-wrap: wrap;
+}
+
+@media (max-width: 900px){
+     .chata {
+        display: none;
+    }
+}
+
+@media (max-width: 900px){
+    .barco {
+       display: none;
+   }
+}
+
+@media (max-width: 900px){
+    .img {
+       display: none;
+   }
+}
+
+@media (max-width: 900px){
+    .parque {
+       display: none;
+   }
+}
+
+@media (max-width: 900px){
+    .ski{
+        display: none;
+    }
 }
 
 @media (max-width: 750px) {

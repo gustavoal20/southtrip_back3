@@ -37,9 +37,8 @@ const values = Object.fromEntries(formData);
          <hr/>
         </div> 
 
-    <div className="formulario"> 
-    
-    
+    <div className="formulario__contacto"> 
+    <Form>
     <Form.Control  type="text"  placeholder="Nombre *"  />
     <br/>
     {/* <Form.Group className="mb-3" controlId="formBasicEmail"></Form.Group> */}
@@ -72,11 +71,11 @@ const values = Object.fromEntries(formData);
         <div className="botonen">
             <Button variant="warning" >ENVIAR MENSAJE</Button>
         </div>
-    
+        </Form>
     <br/>
     <br/>
     </div>  
-
+   
     </div>
     )
 }
