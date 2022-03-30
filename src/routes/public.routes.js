@@ -24,7 +24,7 @@ const PublicRoutes = () => {
             <PublicRoute exac path='/ParqueNacional' componen={ParqueNacionalViews}/>
             <PublicRoute exac path='/MiniSki' componen={MiniSki}/>
             <PublicRoute exac path='/Lagos4x4' componen={Lagos4x4}/>
-            <PublicRoute exac path='/login' componen={LoginView} />
+            <PublicRoute exac path='/Login' componen={LoginView} />
             <PublicRoute exac path="/" componen={HomeView}/>
             <Redirect path='/**' to='/'/>
            

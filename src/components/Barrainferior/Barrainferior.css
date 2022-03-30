@@ -1,5 +1,5 @@
 .barra{
-    background-color:gold;
+    background-color: var(--color_titulos);
     padding: 50px;
   }
   

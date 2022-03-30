@@ -11,12 +11,14 @@ const BtnFlotante = () => {
         //     </a>
             
         // </div>
-        <div className='whathapp'>
-            <div className='btnwhat'>
-                <a href='https://api.whatsapp.com/send?phone=543462307763&text=puto%20el%20que%20lee' target="_blank"> 
-                 <img src={whatsapp} width='90%' height='50%'></img>
+        <div className='btnwhat' >
+            
+                <a href='https://api.whatsapp.com/send?phone=543462307763&text=puto%20el%20que%20lee' target="_blank" >
+                <p>Estamos en linea, contactanos!</p>
+                 <img src={whatsapp} className="btnwhat__img"/> 
                 </a>
-            </div>
+                 
+            
         </div>
     )
 }

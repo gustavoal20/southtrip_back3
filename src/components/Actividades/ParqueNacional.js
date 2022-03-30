@@ -4,6 +4,7 @@ import parque from './Imagenes/parque.jpg'
 import { Card, Form, ListGroup, Button } from "react-bootstrap";
 import {FcCheckmark } from "react-icons/fc";
 import ubicacion from './Imagenes/ubicacion.jpeg'
+import BtnFlotante from "../Btn-flotante/BtnFlotante";
 
 
 
@@ -13,6 +14,7 @@ const Actividades = () => {
 
     <div className="Parque">
 
+      <BtnFlotante/>
           <div className="parque">
           <img src={parque}  alt=""/>
           </div>   
@@ -62,12 +64,12 @@ const Actividades = () => {
       </div>
       <div className="descripcion__caminate3">
         <br/>
-        <p><FcCheckmark/>9:00	Salida</p>
-        <p><FcCheckmark/>10:00	Llegada a Tren del Fin del Mundo</p>
-        <p><FcCheckmark/>11:00	Fin de recorrido de Tren</p>
-        <p><FcCheckmark/>11:30	Llegada a Bahía Lapataia y caminata</p>
-        <p><FcCheckmark/>12:30	Arribo a Lago Acigami y refrigerio</p>
-        <p><FcCheckmark/>13:30	Vuelta a Ushuaia</p>
+        <p><FcCheckmark/> 9:00	Salida</p>
+        <p><FcCheckmark/> 10:00	Llegada a Tren del Fin del Mundo</p>
+        <p><FcCheckmark/> 11:00	Fin de recorrido de Tren</p>
+        <p><FcCheckmark/> 11:30	Llegada a Bahía Lapataia y caminata</p>
+        <p><FcCheckmark/> 12:30	Arribo a Lago Acigami y refrigerio</p>
+        <p><FcCheckmark/> 13:30	Vuelta a Ushuaia</p>
         <p>Servicios en regular y en privado. Mínimo 2 personas.</p>
         </div>
       <br/>

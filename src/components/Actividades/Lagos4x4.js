@@ -4,6 +4,7 @@ import caminata from './Imagenes/caminata.jpeg'
 import { Card, Form, ListGroup, Button } from "react-bootstrap";
 import {FcCheckmark } from "react-icons/fc";
 import chata from './Imagenes/chata2.jpg'
+import BtnFlotante from "../Btn-flotante/BtnFlotante";
 
 
 const Actividades = () => {
@@ -12,6 +13,7 @@ const Actividades = () => {
 
     <div className="MiniSki">
 
+      <BtnFlotante/>
           <div className="chata">
           <img src={chata}  alt=""/>
           </div>   

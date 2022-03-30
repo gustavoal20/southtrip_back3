@@ -5,14 +5,20 @@ import { AiOutlineClockCircle } from "react-icons/ai";
 import { GoCircleSlash } from "react-icons/go";
 import { GrGroup } from "react-icons/gr";
 import { Card, Form, ListGroup, Button } from "react-bootstrap";
-import ubicacion from './Imagenes/ubicacion.jpeg'
+
+
+
 import {FcCheckmark } from "react-icons/fc";
+
 
 const Actividades = () => {
 
     return (
 
     <div className="Actividades">
+        
+        
+      
 
           <div className="img">
           <img src={caminata}  alt=""/>
@@ -69,11 +75,13 @@ const Actividades = () => {
         <br/>
          <h5>Incluye:</h5>
          <br/>
+         <div>
        <p><FcCheckmark/> Transfer hotel.</p>
        <p><FcCheckmark/> Punto de partida de la caminata </p> 
        <p><FcCheckmark/> Box lunch por persona (sándwich + alfajor + botella de agua 500 ml)</p>
        <p><FcCheckmark/> Bastones (en caso de requerirse)</p> 
        <p><FcCheckmark/> Crampines y pilotos de lluvia.</p> 
+       </div>
          </div>
         
         <hr className="linea"/> 

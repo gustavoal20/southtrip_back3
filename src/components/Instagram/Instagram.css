@@ -18,14 +18,7 @@
     
   }
 
-  
 
-  /* @media (min-width: 1000px){
-    .img__insta{
-      display: none;
-
-    }
-  } */
   @media (max-width: 700px){
     .botonin {
       font-size: 20px;    

@@ -17,9 +17,9 @@ import BtnFlotante from '../components/Btn-flotante/BtnFlotante';
 import ReactDOM from 'react-dom';
 import ViewExcursiones from '../components/Turismo/ViewExcursiones';
 const HomeViews = () =>(
-<div>
+
   
-  <div>
+  <div className='Home'>
   <Barrasuperior/>
   <Portada/>
   <BtnFlotante/>
@@ -42,7 +42,7 @@ const HomeViews = () =>(
   <Barrainferior/>
   </div>
 
-</div>
+
 
 
 )

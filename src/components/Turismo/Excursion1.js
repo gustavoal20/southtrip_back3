@@ -9,7 +9,7 @@ import fondo1 from './Imagenes/aventura.1.jpeg'
 
 const Excursion1 = () => {
     return(
-        <div className="laguna">
+        <div className="laguna" id='actividades'>
 
             <div  className="imagenfondo" style={{backgroundImage: `url(${fondo1})` }}>
                 <Card className="CARDAVEN">

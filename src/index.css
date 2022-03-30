@@ -8,15 +8,20 @@
 
 body{
   background-color: black;
+  display: flex;
+  flex-direction: column;
 }
 
-
+@media (min-width:1000px){
+  .Home{
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .texto__descripcion{
   color: white;
 }
-
-
 
 
 

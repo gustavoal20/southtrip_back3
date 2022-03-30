@@ -7,3 +7,31 @@
   .portada h1{
     color: red;
   }
+  @media (min-width:500px){
+    .container__instagramresponsive{
+      display: none;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+      
+    }
+  }
+  @media (max-width:500px){
+    .portada__responsive{
+      height: 300px;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+      
+    }
+  }
+
+  /* @media (max-width: 500px){
+    .{
+      
+      display: none;  
+    }
+  } */
+.portada2{
+  display: none;
+}

@@ -4,6 +4,7 @@ import caminata from './Imagenes/caminata.jpeg'
 import { Card, Form, ListGroup, Button } from "react-bootstrap";
 import {FcCheckmark } from "react-icons/fc";
 import ski from './Imagenes/ski.jpg'
+import BtnFlotante from "../Btn-flotante/BtnFlotante";
 
 
 const Actividades = () => {
@@ -12,6 +13,7 @@ const Actividades = () => {
 
     <div className="MiniSki">
 
+      <BtnFlotante/>
           <div className="ski">
           <img src={ski}  alt=""/>
           </div>   
@@ -58,17 +60,19 @@ const Actividades = () => {
           <div className="caminata2"> 
           
           <br/>
-          <p>Cerro Castor es producto de un proyecto familiar que logró cristalizarse el 9 de julio de 1999 cuando abrió por primera vez sus puertas al público. Muchos son los cambios que se han producido a lo largo de estos 14 años de trabajo. En un principio Cerro Castor contaba solamente con 3 telesillas cuádruples, 1 teleski, 15 pistas y un edificio en la base</p>
+          <p>Cerro Castor es producto de un proyecto familiar que logró cristalizarse el 9 de julio de 1999 cuando abrió por primera vez sus puertas al público. Muchos son los cambios que se han producido a lo largo de estos 14 años de trabajo. En un principio Cerro Castor contaba solamente con 3 telesillas cuádruples, 1 teleski, 15 pistas y un edificio en la base.</p>
 
           <p>Hoy su infraestructura es diferente y ha crecido mucho pero mantiene la esencia que lo caracterizó desde sus comienzos. Gracias al esfuerzo de todos, hoy esta montaña posee medios de elevación para todos los niveles de esquí, alojamiento en la base, 7 puntos gastronómicos que permiten apreciar el paisaje fueguino desde diferentes lugares, pero por sobre todas las cosas mantiene esa calidad de nieve que siempre la caracterizó.</p>
-          <p>NO INCLUYE EQUIPOS DE SKI Y SNOWBOR </p>
-
+          
+          <br/>
+          <h5>Incluye:</h5>
+          <p><FcCheckmark/> Pases al Cerro Castor por 4 días.</p>
+          <p><FcCheckmark/> Traslados diarios regulares al Cerro Castor ida y vuelta.</p> 
+          <p><FcCheckmark/> Traslados Aeropuerto–Hotel–Aeropuerto.</p> 
+          <p><FcCheckmark/> Asistencia y asesoramiento las 24hs.</p> 
+          <p><FcCheckmark/> NO INCLUYE EQUIPOS DE SKI Y SNOWBOR.</p>
         <br/>
-         <h5>Recomendamos llevar:</h5>
-         <br/>
-       <ul><li><p>Agua</p></li> </ul>
-       <ul><li><p>Anteojos de sol</p></li> </ul>
-       <ul><li><p>Protector solar</p></li> </ul>
+         
       
          </div>
         
@@ -80,12 +84,19 @@ const Actividades = () => {
 
         <div className="descripcion__caminate3">
           <br/>
-          <p><FcCheckmark/> 9:00 hs Pick up por Hoteles</p>         
-          <p><FcCheckmark/> 9:40hs Arribo al cerro castor y asistencia</p>
-          <p><FcCheckmark/> 10:00hs	Apertura de Medios</p>
-          <p><FcCheckmark/> 16:45hs Última Subida</p>
-          <p><FcCheckmark/> 17:00hs Regreso a Ushuaia y traslado a hoteles</p>
+          <p><FcCheckmark/> 9:00 hs Pick up por Hoteles.</p>         
+          <p><FcCheckmark/> 9:40hs Arribo al cerro castor y asistencia.</p>
+          <p><FcCheckmark/> 10:00hs	Apertura de Medios.</p>
+          <p><FcCheckmark/> 16:45hs Última Subida.</p>
+          <p><FcCheckmark/> 17:00hs Regreso a Ushuaia y traslado a hoteles.</p>
           <p>Esta excursión puede sufrir variantes, sujeto a disponibilidad de acceso a las pistas y medios de elevación.</p>
+          <br/>
+          <h5>Recomendamos llevar:</h5>
+         <br/>
+       <ul><li><p>Agua.</p></li> </ul>
+       <ul><li><p>Anteojos de sol.</p></li> </ul>
+       <ul><li><p>Protector solar.</p></li> </ul>
+      
         </div>
        <div className="linea">
          <hr/>

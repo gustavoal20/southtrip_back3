@@ -37,9 +37,12 @@ const values = Object.fromEntries(formData);
          <hr/>
         </div> 
 
-    <div className="formulario__contacto"> 
+<div className="formulario__contacto"> 
+
     <Form>
+<div className="nombre">
     <Form.Control  type="text"  placeholder="Nombre *"  />
+</div>
     <br/>
     {/* <Form.Group className="mb-3" controlId="formBasicEmail"></Form.Group> */}
     
@@ -47,14 +50,18 @@ const values = Object.fromEntries(formData);
         <Form.Control type="email" placeholder="Email *" /> 
     </div>
     <br/>
+    <div>
     <Form.Control type="text" placeholder="Celular *" />
+    </div>
     <br/>
+    <div>
     <Form.Select aria-label="Default select example">
         <option>Seleccione</option>
         <option value="1">Turismo</option>
         <option value="2">Aventura</option>   
         <option value="2">Traslado</option>  
     </Form.Select>
+    </div>
     <br/>
      <div>
      <span className="wpcf7-form-control-wrap FechaViaje"><input type="date" name="FechaViaje"  className="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date form-control" aria-required="true" aria-invalid="false" placeholder="Fecha Viaje" /></span>
@@ -63,7 +70,9 @@ const values = Object.fromEntries(formData);
     </div>  
    
         <br/>
+        <div>
         <Form.Control as="textarea" rows={7} placeholder="Consulta"/>
+        </div>
         <br/>
         <div className="campos">
             <p> Campos obligatorios * </p>
@@ -74,9 +83,9 @@ const values = Object.fromEntries(formData);
         </Form>
     <br/>
     <br/>
-    </div>  
-   
     </div>
+   
+</div>
     )
 }
 
