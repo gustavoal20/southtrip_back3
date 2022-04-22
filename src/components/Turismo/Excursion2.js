@@ -1,5 +1,5 @@
 import React from "react";
-import './aventura.css'
+import './aventura2.css'
 import {  Card } from "react-bootstrap"
 import caminata1 from "./Imagenes/caminata.jpg"
 import { FcFlashOn } from "react-icons/fc";
@@ -8,10 +8,11 @@ import fondo2 from './Imagenes/caminata.jpg'
 
 const Excursion2 = () => {
     return(
-        <div>
-
-        <div className="laguna" className="imagenfondo" style={{backgroundImage: `url(${fondo2})` }}>
-                <Card className="CARDAVEN">
+        
+<div className="laguna2" id='actividades'>
+        
+                
+                <Card className="CARDAVEN_MINI">
                     <Card.Img className="imgaven" variant="top" src={caminata1}/>
                     <Card.Body className="body">
                     <div className="tituloaven">
@@ -27,7 +28,7 @@ const Excursion2 = () => {
                 </Card> 
 
             <div className="chatas" >
-                <Card className="CARDAVEN">
+                <Card className="CARDAVEN_LAGOS">
                     <Card.Img className="imgaven" variant="top" src={caminata1}/>
                     <Card.Body className="body">
                     <div className="tituloaven">
@@ -44,8 +45,8 @@ const Excursion2 = () => {
             </div>
 
 
-            <div className="navegacion" >
-                <Card className="CARDAVEN__nave">
+          
+                <Card className="CARDAVEN_NAVE">
                     <Card.Img className="imgaven" variant="top" src={caminata1}/>
                     <Card.Body className="body">
                     <div className="tituloaven">
@@ -59,13 +60,14 @@ const Excursion2 = () => {
                     </div>   
                     </Card.Body>
                 </Card>  
-            </div>
-        </div>
+           
 
+       <div className="imagenfondo2"  style={{backgroundImage: `url(${fondo2})` }}> </div>
 
+       </div>
              
 
-        </div>
+    
     )
 };
 

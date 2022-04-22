@@ -12,7 +12,7 @@ import './ViewExcursiones.css'
 const ViewExcursiones = () => {
 
     return (
-        <div >
+    <div >
         <div >
             <Excursion1 />
         </div>

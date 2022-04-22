@@ -99,7 +99,7 @@ const Barrasuperior = () => {
     <Nav className="me-auto">
       <Nav.Link href="/home/#actividades">Actividades</Nav.Link>
       <Nav.Link href="/home/#traslados">Traslados</Nav.Link>
-      <Nav.Link href="/Nosotros">Nosotros</Nav.Link>
+      {/* <Nav.Link href="/Nosotros">Nosotros</Nav.Link> */}
       <Nav.Link href="/Contacto">Contacto</Nav.Link>
       <Nav.Link href="/Login">Login</Nav.Link>
     </Nav>

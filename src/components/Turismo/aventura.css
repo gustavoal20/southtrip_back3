@@ -1,28 +1,71 @@
 
 /* ----------aventura---------- */
-.laguna{
+/* .laguna{
     margin-right: 20px;
     margin-bottom: 10px;
+    
+} */
+
+.imagenfondo1{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.imagenfondo1:before {
+    content: "";
+
+    background: linear-gradient(90deg, rgb(51, 51, 145));
+    opacity: 0.5;
+}
+
 .CARDAVEN{
-    margin-top: 10px;
-    margin-bottom: 1px;
-    margin-right: 300px ;
+    /* margin-top: 10px;
+    margin-bottom: 1px;  */
+   
     border-radius: 30px 0px ;
     background-color: white;
     width: 17%;
     height: 90%;
     display: flex;
     flex-wrap: wrap;
-
+    
+    margin-right: auto;
+    margin-left: auto;
 }
 
+.CARDAVENPARQUE{
+    border-radius: 30px 0px ;
+    background-color: white;
+    width: 17%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+
+
+.imgaven__parque{
+    
+    border-radius: 30px 0px 0px;
+    height: 50%;
+    width: 100%;
+}
+
+.imgaven__parque:hover{
+    transform : scale(1.1);
+}
 .navegacion{
     display: flex;
     flex-wrap: wrap;
 }
 
-.CARDAVEN__aven{
+/* .CARDAVEN__aven{
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
@@ -31,7 +74,7 @@
     background-color: white;
     width: 17%;
     height: 90%;
-}
+} */
 
 .imgaven{
     
@@ -62,23 +105,51 @@
     font-size: 20px;
 }
 
-@media (max-width: 700px){
+/* @media (max-width: 700px){
     .imagenfondo{
        display: flex;     
        padding: 0px;
        margin: 0px;
        
     }
-  }
+  } */
 
-
-
-/* @media (max-width: 700px){
-    .imagenfondo {
-
+  @media (max-width: 700px){
+    .CARDAVEN{
+        width: 80%;
+        height: 350px;
+        font-size: 20px;        
+        flex-wrap: wrap;
+        display: flex;
+    } 
+}
+@media (max-width: 700px){
+    .CARDAVENPARQUE{
+        width: 80%;
+        height: 350px;
+        font-size: 20px;        
+        flex-wrap: wrap;
+        display: flex;
+    } 
+}
+ @media (max-width: 700px){
+    .imagenfondo1 {
+        display: none;
     }
 }
 
+@media (max-width:700px) {
+    .laguna{
+        display: grid;
+    }
+}
+
+/* @media (max-width:700px) {
+    .CARDAVEN{
+
+    }
+} */
+/*
 @media (max-width: 700px){
     .imagenfondo{
        display: flex;     

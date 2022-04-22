@@ -11,7 +11,7 @@ const Excursion1 = () => {
     return(
         <div className="laguna" id='actividades'>
 
-            <div  className="imagenfondo" style={{backgroundImage: `url(${fondo1})` }}>
+            
                 <Card className="CARDAVEN">
                     <Card.Img className="imgaven" variant="top" src={caminata1}/>
                     <Card.Body className="body">
@@ -27,9 +27,9 @@ const Excursion1 = () => {
                     </Card.Body>
                 </Card>
 
-            <div className="chatas" >
-                <Card className="CARDAVEN">
-                    <Card.Img className="imgaven" variant="top" src={caminata1}/>
+                
+                <Card className="CARDAVENPARQUE">
+                    <Card.Img className="imgaven__parque" variant="top" src={caminata1}/>
                     <Card.Body className="body">
                     <div className="tituloaven">
                     <a href="/ParqueNacional"><p>PARQUE NACIONAL TIERRA DEL FUEGO</p></a>
@@ -42,9 +42,9 @@ const Excursion1 = () => {
                     </div>   
                     </Card.Body>
                 </Card>  
-            </div>
-
-            </div>
+            
+                <div  className="imagenfondo1" style={{backgroundImage: `url(${fondo1})` }}></div>
+            
         </div>
     )
 };
