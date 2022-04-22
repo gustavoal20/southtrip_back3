@@ -42,6 +42,7 @@
 .btnwhat{
     
     position:fixed;
+    display: flex;
 }
 
 .btnwhat__img{

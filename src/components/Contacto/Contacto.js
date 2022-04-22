@@ -6,7 +6,7 @@ import './Contacto.css';
 //import { state } from "react";
 import faro from "./Imagenes/faro.jpeg"
 import 'react-calendar/dist/Calendar.css';
-
+import BtnFlotante from "../Btn-flotante/BtnFlotante";
 
 function Form1() {
     const formRef = React.useRef();
@@ -21,7 +21,7 @@ const values = Object.fromEntries(formData);
 
        
     <div className="contacto">
-
+         <BtnFlotante/>
         <div className="textocon">
             <h3>Nos encantaría recibir tu contacto.</h3>
             <p>Envianos un mensaje y te responderemos lo antes posible!</p>

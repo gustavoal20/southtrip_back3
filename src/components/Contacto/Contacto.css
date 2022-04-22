@@ -22,8 +22,8 @@
 }
 
 .formulario__contacto{
-    margin-left: 88px;
-    margin-right: 700px;
+    /* margin-left: 30%;
+    margin-right: 700px; */
     display: grid;
     grid-auto-columns: 50%;
     flex-direction: column;  

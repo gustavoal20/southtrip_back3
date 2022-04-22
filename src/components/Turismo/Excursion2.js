@@ -1,9 +1,11 @@
 import React from "react";
 import './aventura2.css'
 import {  Card } from "react-bootstrap"
-import caminata1 from "./Imagenes/caminata.jpg"
+import barco from "./Imagenes/barco.jpg"
 import { FcFlashOn } from "react-icons/fc";
 import fondo2 from './Imagenes/caminata.jpg'
+import chata from './Imagenes/chata2.jpg'
+import ski from './Imagenes/ski.jpg'
 //import turismo from './Imagenes/turismo.png'
 
 const Excursion2 = () => {
@@ -13,9 +15,9 @@ const Excursion2 = () => {
         
                 
                 <Card className="CARDAVEN_MINI">
-                    <Card.Img className="imgaven" variant="top" src={caminata1}/>
+                    <Card.Img className="imgaven" variant="top" src={ski}/>
                     <Card.Body className="body">
-                    <div className="tituloaven">
+                    <div className="titulomini">
                     <a href="/MiniSki"><p>MINI SKI WEEK</p></a>
                     </div>    
                     <div className="fromaven">
@@ -29,9 +31,9 @@ const Excursion2 = () => {
 
             <div className="chatas" >
                 <Card className="CARDAVEN_LAGOS">
-                    <Card.Img className="imgaven" variant="top" src={caminata1}/>
+                    <Card.Img className="imgalagos" variant="top" src={chata}/>
                     <Card.Body className="body">
-                    <div className="tituloaven">
+                    <div className="titulolagos">
                         <a href="/Lagos4x4"><p>LAGOS 4x4</p></a>
                     </div>    
                     <div className="fromaven">
@@ -47,9 +49,9 @@ const Excursion2 = () => {
 
           
                 <Card className="CARDAVEN_NAVE">
-                    <Card.Img className="imgaven" variant="top" src={caminata1}/>
+                    <Card.Img className="imgaven" variant="top" src={barco}/>
                     <Card.Body className="body">
-                    <div className="tituloaven">
+                    <div className="titulonave">
                         <a href="/CanalBeagle"><p>NAVEGACION CANAL DE BEAGLE</p></a>
                     </div>    
                     <div className="fromaven">
