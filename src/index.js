@@ -21,12 +21,12 @@ import {Auth0Provider} from '@auth0/auth0-react'
 
 ReactDOM.render(
   <BrowserRouter>
-  <Auth0Provider 
+  {/* <Auth0Provider 
   domain='dev-y6v4srp9.us.auth0.com' 
   clientId='WKeFKBb9ttER1uschxb01UvMDZWhP8HN'
-  redirectUri={window.location.origin}>
+  redirectUri={window.location.origin}> */}
     <App /> 
-  </Auth0Provider>
+  {/* </Auth0Provider> */}
   </BrowserRouter>,
   document.getElementById('root')
 );
