@@ -1,9 +1,7 @@
 import React from "react";
 import './Actividades.css';
 import caminata from './Imagenes/trekking2.jpg'
-import { AiOutlineClockCircle } from "react-icons/ai";
-import { GoCircleSlash } from "react-icons/go";
-import { GrGroup } from "react-icons/gr";
+
 import { Card, Form, ListGroup, Button } from "react-bootstrap";
 
 
