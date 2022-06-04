@@ -3,7 +3,7 @@ import { Card, CardGroup,Button, Image, CardImg} from 'react-bootstrap'
 //import { AiFillInstagram } from 'react-icons/ai';
 import { FaInstagramSquare } from 'react-icons/fa';
 import { BsInstagram } from 'react-icons/bs';
-import gfd from "./imagenes/logo.jpg";
+//import gfd from "./imagenes/logo.jpg";
 import instagram6 from "./imagenes/instagram-1.png";
 import instagram from "./imagenes/instagram.png";
 import instagram2 from "./imagenes/instagram2.png";
@@ -11,7 +11,7 @@ import instagram3 from "./imagenes/instagram3.png";
 import instagram4 from "./imagenes/instagram4.png";
 import instagram5 from "./imagenes/instagram5.png";
 import "./Instagram.css"
-import faro from "./imagenes/faro.jpeg"
+//import faro from "./imagenes/faro.jpeg"
 
 
 
