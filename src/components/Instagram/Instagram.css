@@ -79,21 +79,23 @@
     border: 1px solid grey;
   }
 
-  @media (min-width:500px){
-  .container__instagramresponsive{
-    display: none;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
+   @media (min-width:499px){
+       .container__instagramresponsive{
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
     
   }
+} 
+
+@media (min-width:499px) {
+  .container__instagramresponsive{
+    display: none;
+  }
 }
-@media (max-width:500px){
-.container__instagramresponsive{
+
   
-  display: none;
-}
-}
+
 
 
 .row{
