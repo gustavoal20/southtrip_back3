@@ -52,12 +52,20 @@
 
 
 
- @media (min-width:1000px) {
+ @media (max-width:1500px) {
 .btnwhat{
-   display: flex;
-   flex-direction: column; 
+    right: -30px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column; 
     font-size: 20px;
 }} 
+
+/* @media (min-width:600px) {
+    .btnwhat{
+        display: none;
+    }
+} */
 
 .btnwhat{
     flex-wrap: wrap;
@@ -89,7 +97,7 @@
         display: none;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .btnresponsive{
         display: block;
         position: fixed;
@@ -100,4 +108,4 @@
         margin: 5px;
      
     }
-}
+} */
