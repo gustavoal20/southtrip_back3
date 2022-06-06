@@ -94,7 +94,11 @@
   }
 }
 
-  
+ @media (max-width:50px) {
+   .container__instagramresponsive{
+     display: none;
+   }
+ }
 
 
 
