@@ -1,7 +1,7 @@
 import React from "react";
 import './Actividades.css';
 import parque from './Imagenes/parque.jpg'
-import { Card, Form, ListGroup, Button } from "react-bootstrap";
+import { Card, ListGroup, Button } from "react-bootstrap";
 import {FcCheckmark } from "react-icons/fc";
 //import ubicacion from './Imagenes/ubicacion.jpeg'
 import BtnFlotante from "../Btn-flotante/BtnFlotante";
@@ -24,12 +24,12 @@ const Actividades = () => {
             
           <div className="card__presios">
             <Card className="card1" style={{ width: '18rem' }}>
-                <Card.Header >USD $52</Card.Header>
+                <Card.Header >USD $50</Card.Header>
                 <ListGroup variant="flush">                 
                     <ListGroup.Item>Fecha</ListGroup.Item>
                     <ListGroup.Item>Adultos</ListGroup.Item>
-                    <ListGroup.Item ><Button className="botonacts" href="/Confirmar" variant="warning" type="submit">
-            reservar </Button></ListGroup.Item>
+                    {/* <ListGroup.Item ><Button className="botonacts" href="/Confirmar" variant="warning" type="submit">
+            reservar </Button></ListGroup.Item> */}
                 </ListGroup>
             </Card>
           </div>
@@ -51,6 +51,8 @@ const Actividades = () => {
          Volveremos a la ciudad  de Ushuaia con el tiempo suficiente como para combinar el día con una navegación por el Canal de Beagle por la tarde.</p>
          <br/>
          <p>Disponible en temporada de INVIERNO (1° de Junio – 30 de Septiembre). Esta excursión puede sufrir variantes por motivos climáticos.</p>
+         <p>Tenes un 10% de descuento contratando esta excursión y navegación canal de beagle.</p>
+         <br/>
          <h5>Incluye:</h5>
       
        <p><FcCheckmark/> Idioma: Español/Inglés.</p>
@@ -87,12 +89,12 @@ const Actividades = () => {
 
       <div className="card__presios">
             <Card className="card1" style={{ width: '18rem' }}>
-                <Card.Header >USD $52</Card.Header>
+                <Card.Header >USD $50</Card.Header>
                 <ListGroup variant="flush">                 
                     <ListGroup.Item>Fecha</ListGroup.Item>
                     <ListGroup.Item>Adultos</ListGroup.Item>
-                    <ListGroup.Item ><Button className="botonacts" href="/Confirmar" variant="warning" type="submit">
-            reservar </Button></ListGroup.Item>
+                    {/* <ListGroup.Item ><Button className="botonacts" href="/Confirmar" variant="warning" type="submit">
+            reservar </Button></ListGroup.Item> */}
                 </ListGroup>
             </Card>
           </div>
@@ -137,7 +139,8 @@ const Actividades = () => {
           <p>En Bahía Lapataia, se pueden observar numerosas aves marinas y restos de un conchero utilizado por los primero aborígenes Yaganes.</p>
 
         <br/>
-         
+        <p>Tenes un 10% de descuento contratando esta excursión y navegación canal de beagle.</p>
+        <br/>
          </div>
         
         <hr className="linea"/> 
@@ -149,7 +152,7 @@ const Actividades = () => {
         <div className="descripcion__caminate3">
           <br/>
           <p><FcCheckmark/>Salida: 08:00 hs aproximadamente</p>         
-          <p><FcCheckmark/> Tarifa: AR$ 5500</p>
+          <p><FcCheckmark/> Tarifa: AR$ 6000</p>
           <p><FcCheckmark/> Política de menores: de 3 a 11 años: 50 % descuento</p>
           <p><FcCheckmark/> Vigencia: del 01/01/22 al 30/06/22</p>
           <br/>
@@ -163,12 +166,12 @@ const Actividades = () => {
 
        <div className="card__presios">
             <Card className="card1" style={{ width: '18rem' }}>
-                <Card.Header >USD $52</Card.Header>
+                <Card.Header >USD $50</Card.Header>
                 <ListGroup variant="flush">                 
                     <ListGroup.Item>Fecha</ListGroup.Item>
                     <ListGroup.Item>Adultos</ListGroup.Item>
-                    <ListGroup.Item ><Button className="botonacts" href="/Confirmar" variant="warning" type="submit">
-            reservar </Button></ListGroup.Item>
+                    {/* <ListGroup.Item ><Button className="botonacts" href="/Confirmar" variant="warning" type="submit">
+            reservar </Button></ListGroup.Item> */}
                 </ListGroup>
             </Card>
           </div>
@@ -212,7 +215,7 @@ const Actividades = () => {
           <p><li>Adultos Argentinos: AR$ 4200</li></p>
           <p><li>Menores Argentinos de 4 a 12 años: AR$ 2100 </li></p>
           <p><li>Jubilados argentinos: AR$ 2600</li></p>
-          <p>Vigencia del 01/10/21 al 30/04/22</p>
+          {/* <p>Vigencia del 01/10/21 al 30/04/22</p> */}
         </div>  
     </div>
 

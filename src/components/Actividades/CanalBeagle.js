@@ -24,12 +24,12 @@ const Actividades = () => {
             
           <div className="card__presios">
             <Card className="card1" style={{ width: '18rem' }}>
-                <Card.Header >USD $60</Card.Header>
+                <Card.Header >USD $57</Card.Header>
                 <ListGroup variant="flush">                 
                     <ListGroup.Item>Fecha</ListGroup.Item>
                     <ListGroup.Item>Adultos</ListGroup.Item>
-                    <ListGroup.Item ><Button className="botonacts" href="/Confirmar" variant="warning" type="submit">
-            reservar </Button></ListGroup.Item>
+                    {/* <ListGroup.Item ><Button className="botonacts" href="/Confirmar" variant="warning" type="submit">
+            reservar </Button></ListGroup.Item> */}
                 </ListGroup>
             </Card>
           </div>
@@ -44,9 +44,9 @@ const Actividades = () => {
 
       <div className="info__container">
       <div className="informacion__travesia">
-          <div className="iconos"><p> Duración: </p><p> </p> </div>
-          <div className="iconos2"><p> Cancelacion:</p> <p></p></div>
-          <div className="iconos3"><p> Maxi de personas:</p> <p> 18 </p></div>
+          <div className="iconos"><p> Duración: </p><p> 4hs </p> </div>
+          {/* <div className="iconos2"><p> Cancelacion:</p> <p></p></div> */}
+          <div className="iconos3"><p> Maxi de personas:</p> <p> 26 </p></div>
       </div>
         
           <br/>
@@ -66,9 +66,9 @@ const Actividades = () => {
           <p>En otras de las islas encontramos lobos marinos de un pelo y de dos pelos. Ponemos proa hacia la isla de los pájaros donde habitan los cormoranes reales e imperiales. </p>
           <p>Continuamos hacia la isla Bridges, famosa por sus concheros yámanas y su espléndida vista de las costas chilenas y argentinas.</p>
           <p>Desembarcamos y caminamos por un sendero de interpretación de flora, avifauna y restos arqueológicos. Durante la travesía compartimos té, chocolate, café con licor, galletitas y por supuesto, el típico mate argentino.</p>
-            <br/>
-
-        <br/>
+          <br/>
+          <p>Niños entre 3 y 9 años abonan el 50%, y menores de 3 años no abonan.</p>
+          <br/>
          
     </div>
         
@@ -80,16 +80,16 @@ const Actividades = () => {
 
         <div className="descripcion__caminate3">
           <br/>
-          <p><FcCheckmark/> 10:00	Salida del muelle turístico</p>         
-          <p><FcCheckmark/> 10:15	Navegación por la bahía de Ushuaia</p>
-          <p><FcCheckmark/> 10:30	Salida al Canal Beagle</p>
-          <p><FcCheckmark/> 11:00	Avistaje de lobos marinos de uno y de dos pelos</p>
-          <p><FcCheckmark/> 11:45	Avistaje de cormoranes y aves del Beagle</p>
-          <p><FcCheckmark/> 12:00	Arribo al faro Les Eclerairs</p>
-          <p><FcCheckmark/> 12:30	Llegada a Islas Bridges</p>
-          <p><FcCheckmark/> 12:45	Inicio de caminata por la isla e interpretación</p>
-          <p><FcCheckmark/> 13:45	Vuelta a la embarcación</p>
-          <p><FcCheckmark/>14:00	Llegada al muelle turístico</p>
+          <p><FcCheckmark/> 10:00hs y 15:00hs	Salida del muelle turístico</p>         
+          <p><FcCheckmark/>	Navegación por la bahía de Ushuaia</p>
+          <p><FcCheckmark/>	Salida al Canal Beagle</p>
+          <p><FcCheckmark/>	Avistaje de lobos marinos de uno y de dos pelos</p>
+          <p><FcCheckmark/>	Avistaje de cormoranes y aves del Beagle</p>
+          <p><FcCheckmark/>	Arribo al faro Les Eclerairs</p>
+          <p><FcCheckmark/>	Llegada a Islas Bridges</p>
+          <p><FcCheckmark/>	Inicio de caminata por la isla e interpretación</p>
+          <p><FcCheckmark/>	Vuelta a la embarcación</p>
+          <p><FcCheckmark/>	Llegada al muelle turístico</p>
           <p>Esta excursión puede sufrir variantes por motivos climáticos.</p>
           <br/>
           <h5>Recomendamos llevar:</h5>

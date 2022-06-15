@@ -16,10 +16,10 @@ const Barrainferior = () => {
         <img src={logo} alt= " " />
         </a>   
         <div className="barra__inferior">
-            <p> <BsPinMap/> Rivadavia 234, ushuaia city</p>
+            <p> <BsPinMap/>Ushuaia Tierra Del Fuego Argentina</p>
             <p> <BsTelephone/> +54 267 456321</p>
             <p> <FiMail/> info@southrip.com.ar</p>
-            <p> <BsWhatsapp/> +3462304065</p>
+            <p> <BsWhatsapp/> +54 9 2901493987</p>
             <p>  ©Copyright 2022 Southrip</p>
 
 

@@ -71,11 +71,17 @@
     color: rgb(51, 51, 145);
     text-align: left;
     margin-left: auto;
-    margin: 15px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .titulonave a{
     text-decoration: none;
+}
+
+.fromaven_nave{
+    color: rgb(51, 51, 145);
+    font-size: 18px;
 }
 
 .CARDAVEN_NAVE:hover{

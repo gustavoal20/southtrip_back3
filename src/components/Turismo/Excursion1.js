@@ -19,8 +19,9 @@ const Excursion1 = () => {
                     <div className="tituloaven">
                     <a href="/Actividades"><p>LAGUNA ESMERALDA</p></a>
                     </div>    
-                    <div className="fromaven">
-                    <p> <FcFlashOn/>from  USD$80</p>
+                    <div className="fromavenlag">
+                    <p> <FcFlashOn/>from  USD$82</p>
+                    <p> <FcFlashOn/>from  ARG$10.000</p>
                     </div>
                     <div className="arg">
                     </div>   
@@ -35,7 +36,8 @@ const Excursion1 = () => {
                     <a href="/ParqueNacional"><p>PARQUE NACIONAL TIERRA DEL FUEGO</p></a>
                     </div>    
                     <div className="fromaven">
-                    <p> <FcFlashOn/>from  USD$52</p>
+                    <p> <FcFlashOn/>from  USD$50</p>
+                    <p> <FcFlashOn/>from  ARG$6.000</p>
                     </div>
                     <div className="arg">
                     

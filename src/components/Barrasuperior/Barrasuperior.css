@@ -8,6 +8,12 @@
 }
 }
 
-.barra__superior img{
+.barra__superior{
    justify-content: flex-start;
+   border-radius: 90px;
+   
+}
+
+.logo{
+    border-radius: 30px;
 }

@@ -1,13 +1,11 @@
 import React from "react";
 import './Actividades.css';
 import caminata from './Imagenes/trekking2.jpg'
-import { AiOutlineClockCircle } from "react-icons/ai";
-import { GoCircleSlash } from "react-icons/go";
-import { GrGroup } from "react-icons/gr";
+// import { AiOutlineClockCircle } from "react-icons/ai";
+// import { GoCircleSlash } from "react-icons/go";
+// import { GrGroup } from "react-icons/gr";
 import { Card, Form, ListGroup, Button } from "react-bootstrap";
-
-
-
+import {FcCancel} from "react-icons/fc"
 import {FcCheckmark } from "react-icons/fc";
 
 
@@ -29,12 +27,12 @@ const Actividades = () => {
             
           <div className="card__presios">
             <Card className="card1" style={{ width: '18rem' }}>
-                <Card.Header >USD$80</Card.Header>
+                <Card.Header >USD$82</Card.Header>
                 <ListGroup variant="flush">                 
                     <ListGroup.Item>Fecha</ListGroup.Item>
                     <ListGroup.Item>Adultos</ListGroup.Item>
-                    <ListGroup.Item ><Button className="botonacts" href="/Confirmar" variant="warning" type="submit">
-            reservar </Button></ListGroup.Item>
+                    {/* <ListGroup.Item ><Button className="botonacts" href="/Confirmar" variant="warning" type="submit">
+            reservar </Button></ListGroup.Item> */}
                 </ListGroup>
             </Card>
           </div>
@@ -72,7 +70,11 @@ const Actividades = () => {
 
          <p>Una vez que alcanzamos la laguna, destinamos un momento para apreciar su belleza, su singular color y descubrir el entorno que hace que este lugar tenga un encanto particular.</p>
          <p>Allí nos detendremos para reponer energías con un lunch box y una bebida antes de emprender el regreso por el sendero que nos llevó hasta allí.</p>
-        <br/>
+         <br/>
+         
+         <p>Tenes un 10% de descuento contratando esta excursión y navegación canal de beagle.</p>
+         <br/>
+         <br/>
          <h5>Incluye:</h5>
          <br/>
          <div>
@@ -80,7 +82,9 @@ const Actividades = () => {
        <p><FcCheckmark/> Punto de partida de la caminata </p> 
        <p><FcCheckmark/> Box lunch por persona (sándwich + alfajor + botella de agua 500 ml)</p>
        <p><FcCheckmark/> Bastones (en caso de requerirse)</p> 
-       <p><FcCheckmark/> Crampines y pilotos de lluvia.</p> 
+       <p><FcCheckmark/> Crampines y pilotos de lluvia.</p>
+       <p><FcCheckmark/> Guia español e ingles.</p>
+       <p><FcCancel/> No Incluye botas para nieve.</p>
        </div>
          </div>
         
@@ -92,6 +96,7 @@ const Actividades = () => {
 
         <div className="descripcion__caminate3">
           <br/>
+          <p><FcCheckmark/> 8:30hs Salimos del hotel.</p>  
           <p><FcCheckmark/> 9:00hs Salida de la ciudad de Ushuaia.</p>         
           <p><FcCheckmark/> 9:30hs Comienzo de caminata.</p>
           <p><FcCheckmark/>12:00hs Llegada a la Laguna y Vianda.</p>

@@ -21,7 +21,7 @@ const Excursion2 = () => {
                     <a href="/MiniSki"><p>MINI SKI WEEK</p></a>
                     </div>    
                     <div className="fromaven">
-                    <p> <FcFlashOn/>from  ARS$ consultanos</p>
+                    <p> <FcFlashOn/>from  USD consultanos</p>
                     </div>
                     <div className="arg">
                     
@@ -37,7 +37,7 @@ const Excursion2 = () => {
                         <a href="/Lagos4x4"><p>LAGOS 4x4</p></a>
                     </div>    
                     <div className="fromaven">
-                        <p> <FcFlashOn/>from  USD$114</p>
+                        <p> <FcFlashOn/>from  USD$66.11</p>
                     </div>
                     <div className="arg">
                     
@@ -54,8 +54,9 @@ const Excursion2 = () => {
                     <div className="titulonave">
                         <a href="/CanalBeagle"><p>NAVEGACION CANAL DE BEAGLE</p></a>
                     </div>    
-                    <div className="fromaven">
-                        <p> <FcFlashOn/>from  USD$60</p>
+                    <div className="fromaven_nave">
+                        <p> <FcFlashOn/>from  USD$57</p>
+                        <p> <FcFlashOn/>from  ARG$7.000</p>
                     </div>
                     <div className="arg">
                     

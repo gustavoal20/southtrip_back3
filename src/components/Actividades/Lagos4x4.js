@@ -23,12 +23,12 @@ const Actividades = () => {
             
           <div className="card__presios">
             <Card className="card1" style={{ width: '18rem' }}>
-                <Card.Header >USD $144</Card.Header>
+                <Card.Header ></Card.Header>
                 <ListGroup variant="flush">                 
                     <ListGroup.Item>Fecha</ListGroup.Item>
                     <ListGroup.Item>Adultos</ListGroup.Item>
-                    <ListGroup.Item ><Button className="botonacts" href="/Confirmar" variant="warning" type="submit">
-            reservar </Button></ListGroup.Item>
+                    {/* <ListGroup.Item ><Button className="botonacts" href="/Confirmar" variant="warning" type="submit">
+            reservar </Button></ListGroup.Item> */}
                 </ListGroup>
             </Card>
           </div>
