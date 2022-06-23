@@ -55,8 +55,8 @@ const Excursion2 = () => {
                         <a href="/CanalBeagle"><p>NAVEGACION CANAL DE BEAGLE</p></a>
                     </div>    
                     <div className="fromaven_nave">
-                        <p> <FcFlashOn/>from  USD$57</p>
-                        <p> <FcFlashOn/>from  ARG$7.000</p>
+                        <p> <FcFlashOn/>from  USD$56</p>
+                        <p> <FcFlashOn/>from  ARG$5.600</p>
                     </div>
                     <div className="arg">
                     

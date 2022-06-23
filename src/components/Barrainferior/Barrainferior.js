@@ -17,8 +17,8 @@ const Barrainferior = () => {
         </a>   
         <div className="barra__inferior">
             <p> <BsPinMap/>Ushuaia Tierra Del Fuego Argentina</p>
-            <p> <BsTelephone/> +54 267 456321</p>
-            <p> <FiMail/> info@southrip.com.ar</p>
+            <p> <BsTelephone/> +54 9 2901406821</p>
+            <p> <FiMail/> southripushuaia@gmail.com</p>
             <p> <BsWhatsapp/> +54 9 2901493987</p>
             <p>  ©Copyright 2022 Southrip</p>
 

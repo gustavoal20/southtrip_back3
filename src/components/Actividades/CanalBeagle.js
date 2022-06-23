@@ -65,7 +65,7 @@ const Actividades = () => {
           <p>Nos acercamos al faro Les Eclaireurs, icono de nuestra ciudad. Nos maravillamos al ver los cormoranes roqueros sobre los acantilados de las rocas. </p>
           <p>En otras de las islas encontramos lobos marinos de un pelo y de dos pelos. Ponemos proa hacia la isla de los pájaros donde habitan los cormoranes reales e imperiales. </p>
           <p>Continuamos hacia la isla Bridges, famosa por sus concheros yámanas y su espléndida vista de las costas chilenas y argentinas.</p>
-          <p>Desembarcamos y caminamos por un sendero de interpretación de flora, avifauna y restos arqueológicos. Durante la travesía compartimos té, chocolate, café con licor, galletitas y por supuesto, el típico mate argentino.</p>
+          <p>Desembarcamos y caminamos por un sendero de interpretación de flora, avifauna y restos arqueológicos. Durante la travesía compartimos té, chocolate, y por supuesto, el típico mate argentino.</p>
           <br/>
           <p>Niños entre 3 y 9 años abonan el 50%, y menores de 3 años no abonan.</p>
           <br/>
