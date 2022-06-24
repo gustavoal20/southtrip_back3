@@ -1,6 +1,6 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
-import { BsEmojiAngryFill } from "react-icons/bs";
+
 
 const Perfil = () =>{
     const{user, isAuthenticated, isLoading} = useAuth0();

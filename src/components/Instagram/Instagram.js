@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardGroup,Button, Image, CardImg} from 'react-bootstrap'
+import {Button,} from 'react-bootstrap'
 //import { AiFillInstagram } from 'react-icons/ai';
 import { FaInstagramSquare } from 'react-icons/fa';
 import { BsInstagram } from 'react-icons/bs';

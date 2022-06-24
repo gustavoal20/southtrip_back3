@@ -1,6 +1,5 @@
 import React from 'react';
 import './Btn.css';
-import { BsWhatsapp } from 'react-icons/bs';
 import whatsapp from './wapp2.png';
 
 const BtnFlotante = () => {

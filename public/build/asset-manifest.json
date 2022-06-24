@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4a6df22.css",
+    "main.js": "/static/js/main.e539ac33.js",
+    "static/js/787.4beff86e.chunk.js": "/static/js/787.4beff86e.chunk.js",
+    "static/media/ski.jpg": "/static/media/ski.5703fff3765b32879027.jpg",
+    "static/media/barco.jpg": "/static/media/barco.761c8bfa86566a118dae.jpg",
+    "static/media/parque.jpg": "/static/media/parque.fe220523fb90012375db.jpg",
+    "static/media/chata2.jpg": "/static/media/chata2.8a45c043eeeedb467028.jpg",
+    "static/media/instagram4.png": "/static/media/instagram4.f64ca00106702447ad32.png",
+    "static/media/instagram.png": "/static/media/instagram.837c89814b5b770ac0be.png",
+    "static/media/instagram-1.png": "/static/media/instagram-1.700babc910822d142664.png",
+    "static/media/instagram3.png": "/static/media/instagram3.1e35bac5ea92c1d0b992.png",
+    "static/media/instagram2.png": "/static/media/instagram2.02c4e380dc9e3210b04f.png",
+    "static/media/wapp2.png": "/static/media/wapp2.807cf0d84060a9ee2059.png",
+    "static/media/aventura.1.jpeg": "/static/media/aventura.1.3b988a4f715f884d90ab.jpeg",
+    "static/media/instagram5.png": "/static/media/instagram5.ca4113b6e99bb759bbc6.png",
+    "static/media/trekking2.jpg": "/static/media/trekking2.6af892d93b020b0c262a.jpg",
+    "static/media/paisaje2.jpg": "/static/media/paisaje2.f30c52188f17e7c01673.jpg",
+    "static/media/caminata.jpg": "/static/media/caminata.c6a75ead055343426165.jpg",
+    "static/media/paisaje.jpg": "/static/media/paisaje.cc1a30bcab0672229c06.jpg",
+    "static/media/traslados_sinfondo1.png": "/static/media/traslados_sinfondo1.57d1e592a458c6d64500.png",
+    "static/media/logo.jpg": "/static/media/logo.6263ce9b4b7a78b267a8.jpg",
+    "static/media/portada1.jpg": "/static/media/portada1.405d5db4b373fc0b49f1.jpg",
+    "static/media/portada3.jpg": "/static/media/portada3.740350d95c446f09aa91.jpg",
+    "static/media/faro.jpeg": "/static/media/faro.7bdf5b084bc9d92affc9.jpeg",
+    "static/media/caminata.jpeg": "/static/media/caminata.00e35830083a671eefa3.jpeg",
+    "index.html": "/index.html",
+    "main.e4a6df22.css.map": "/static/css/main.e4a6df22.css.map",
+    "main.e539ac33.js.map": "/static/js/main.e539ac33.js.map",
+    "787.4beff86e.chunk.js.map": "/static/js/787.4beff86e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4a6df22.css",
+    "static/js/main.e539ac33.js"
+  ]
+}

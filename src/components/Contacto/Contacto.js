@@ -2,8 +2,6 @@ import React from "react";
 
 import { Form, Button, } from "react-bootstrap";
 import './Contacto.css';
-//import Calendar from 'react-calendar'
-//import { state } from "react";
 import faro from "./Imagenes/faro.jpeg"
 import 'react-calendar/dist/Calendar.css';
 import BtnFlotante from "../Btn-flotante/BtnFlotante";

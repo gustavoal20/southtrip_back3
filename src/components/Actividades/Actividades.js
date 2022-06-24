@@ -4,7 +4,7 @@ import caminata from './Imagenes/trekking2.jpg'
 // import { AiOutlineClockCircle } from "react-icons/ai";
 // import { GoCircleSlash } from "react-icons/go";
 // import { GrGroup } from "react-icons/gr";
-import { Card, Form, ListGroup, Button } from "react-bootstrap";
+import { Card, ListGroup, } from "react-bootstrap";
 import {FcCancel} from "react-icons/fc"
 import {FcCheckmark } from "react-icons/fc";
 

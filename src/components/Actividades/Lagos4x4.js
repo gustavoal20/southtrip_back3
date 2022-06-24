@@ -1,6 +1,6 @@
 import React from "react";
 import './Actividades.css';
-import caminata from './Imagenes/caminata.jpeg'
+//import caminata from './Imagenes/caminata.jpeg'
 import { Card, Form, ListGroup, Button } from "react-bootstrap";
 import {FcCheckmark } from "react-icons/fc";
 import chata from './Imagenes/chata2.jpg'

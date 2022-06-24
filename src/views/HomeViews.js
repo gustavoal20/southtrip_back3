@@ -14,7 +14,7 @@ import "../index.css"
 import BtnFlotante from '../components/Btn-flotante/BtnFlotante';
 //import Turismo from '../components/Turismo/Turismo';
 //import Ubicacion from '../components/Ubicacion/Ubicacion'
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 import ViewExcursiones from '../components/Turismo/ViewExcursiones';
 const HomeViews = () =>(
 

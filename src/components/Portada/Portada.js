@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from 'react-bootstrap';
 import './carousel.css';
 //import image1 from '../../img/1.jpg';
-import portada1 from "./imagenes/portada1.jpg";
+//import portada1 from "./imagenes/portada1.jpg";
 import portada2 from "./imagenes/paisaje2.jpg";
 import portada3 from "./imagenes/portada3.jpg";
 import faro from "./imagenes/paisaje.jpg"

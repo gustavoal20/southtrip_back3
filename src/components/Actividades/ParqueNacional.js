@@ -1,7 +1,7 @@
 import React from "react";
 import './Actividades.css';
 import parque from './Imagenes/parque.jpg'
-import { Card, ListGroup, Button } from "react-bootstrap";
+import { Card, ListGroup,} from "react-bootstrap";
 import {FcCheckmark } from "react-icons/fc";
 //import ubicacion from './Imagenes/ubicacion.jpeg'
 import BtnFlotante from "../Btn-flotante/BtnFlotante";
